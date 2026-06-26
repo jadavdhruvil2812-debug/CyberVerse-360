@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate | CyberVerse 360</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="certificate-box">
+
+<h1>Certificate of Completion</h1>
+
+<h2>This Certificate is Proudly Presented To</h2>
+
+<h3 id="studentName">Cyber Security Learner</h3>
+
+<p>
+For successfully completing the CyberVerse 360 Cybersecurity Awareness Quiz.
+</p>
+
+<h4>🏆 CyberVerse 360 Team</h4>
+
+<button onclick="getName()" class="btn">
+Enter Your Name
+</button>
+
+</section>
+
+<script>
+function getName(){
+let name = prompt("Enter your name");
+if(name){
+document.getElementById("studentName").innerHTML = name;
+}
+}
+</script>
+
+</body>
+</html>
